@@ -39,7 +39,7 @@
       const link = item["l"];
       const result = `<div class="card mb-3 search-close">
         <a class="link stretched-link link-underline link-underline-opacity-0" href="${BASE_URL + link}">
-            <h2 class="h3 title card-header text-body-emphasis">${title}</h5>
+            <h2 class="h5 title card-header text-body-emphasis">${title}</h5>
         </a>
         <div class="card-body">
           <div class="card-text">
@@ -58,7 +58,7 @@
 
   function formatResults(results) {
     return `<article role="article">
-        <div class="modal-header justify-content-between">
+        <div class="modal-header mb-3 justify-content-between">
             <h1>@@@lunr.search.results@@@</h1>
             <button type="button" class="btn-close search-close" aria-label="Close"/>
         </div>
